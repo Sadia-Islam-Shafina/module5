@@ -90,6 +90,10 @@ nav a {
 
 
 /* main section cssss worl  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;  /*   about ar information ta moddeh ante   */
+}
 
 .about{
     padding: 130px;
@@ -109,4 +113,13 @@ nav a {
     color:#757575;
     text-align:center;
     font-size:18px;
+}
+
+/*   About-info- container  css design */
+.about-info-container{
+    display:flex;
+    justify-content:space-around;
+}
+.about-info{
+    text-align: center;
 }
